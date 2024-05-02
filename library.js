@@ -23,7 +23,7 @@ library.addAdminNavigation = async function (header) {
 	header.plugins.push({
 		route: '/plugins/lhvxon',
 		icon: 'fa-paint-brush',
-		name: 'lhvxon Theme',
+		name: 'LHVXON Theme',
 	});
 	return header;
 };
