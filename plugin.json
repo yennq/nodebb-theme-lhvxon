@@ -12,7 +12,7 @@
 		"public/lhvxon.js"
 	],
 	"modules": {
-		"https://lophocvinhxuan.com/assets/uploads/templates/admin/plugins/lhvxon.js": "public/admin.js",
+		"../admin/plugins/persona.js": "public/admin.js",
 		"lhvxon/taskbar.js": "public/modules/taskbar.js",
 		"lhvxon/mobile-menu.js": "public/modules/mobile-menu.js",
 		"../client/account/theme.js": "public/settings.js"
