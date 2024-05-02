@@ -1,6 +1,6 @@
 'use strict';
 
-define('persona/mobile-menu', [
+define('lhvxon/mobile-menu', [
 	'pulling/build/pulling-drawer', 'storage', 'alerts', 'search',
 ], function (
 	Pulling, Storage, alerts, search
@@ -20,7 +20,7 @@ define('persona/mobile-menu', [
 			return;
 		}
 		const chatMenuVisible = app.user && parseInt(app.user.uid, 10);
-		let swapped = !!Storage.getItem('persona:menus:legacy-layout');
+		let swapped = !!Storage.getItem('lhvxon:menus:legacy-layout');
 		const margin = window.innerWidth;
 
 		if (swapped) {

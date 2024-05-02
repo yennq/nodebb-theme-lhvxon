@@ -1,6 +1,6 @@
 'use strict';
 
-define('persona/taskbar', [
+define('lhvxon/taskbar', [
 	'hooks',
 ], function (
 	hooks

@@ -40,17 +40,6 @@
 			</div>
 		</div>
 
-		<div class="card mb-3">
-			<div class="card-header">
-				<span class="fs-5">
-					<i class="fa fa-users"></i> [[groups:details.members]]
-				</span>
-			</div>
-			<div class="card-body">
-				<!-- IMPORT partials/groups/memberlist.tpl -->
-			</div>
-		</div>
-
 		<div data-widget-area="left">
 			{{{each widgets.left}}}
 			{{widgets.left.html}}

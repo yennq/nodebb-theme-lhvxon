@@ -21,9 +21,9 @@ library.init = async function (params) {
 
 library.addAdminNavigation = async function (header) {
 	header.plugins.push({
-		route: '/plugins/persona',
+		route: '/plugins/lhvxon',
 		icon: 'fa-paint-brush',
-		name: 'Persona Theme',
+		name: 'lhvxon Theme',
 	});
 	return header;
 };
@@ -33,7 +33,7 @@ library.addProfileItem = async (data) => {
 		id: 'theme',
 		route: 'theme',
 		icon: 'fa-paint-brush',
-		name: '[[themes/persona:settings.title]]',
+		name: '[[themes/lhvxon:settings.title]]',
 		visibility: {
 			self: true,
 			other: false,

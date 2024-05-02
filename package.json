@@ -39,7 +39,7 @@
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-theme-persona/issues"
+    "url": "https://github.com/NodeBB/nodebb-theme-lhvxon/issues"
   },
   "dependencies": {
     "pulling": "^2.0.0"

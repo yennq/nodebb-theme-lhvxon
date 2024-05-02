@@ -14,7 +14,7 @@ $(document).ready(function () {
 		const header = document.getElementById('header-menu');
 
 		if (!header) {
-			console.warn('[persona/updatePanelOffset] Could not find #header-menu, panel offset unchanged.');
+			console.warn('[lhvxon/updatePanelOffset] Could not find #header-menu, panel offset unchanged.');
 			return;
 		}
 
@@ -33,9 +33,9 @@ $(document).ready(function () {
 			let preference = ['xs', 'sm'];
 
 			try {
-				preference = JSON.parse(Storage.getItem('persona:navbar:autohide')) || preference;
+				preference = JSON.parse(Storage.getItem('lhvxon:navbar:autohide')) || preference;
 			} catch (e) {
-				console.warn('[persona/settings] Unable to parse value for navbar autohiding');
+				console.warn('[lhvxon/settings] Unable to parse value for navbar autohiding');
 			}
 			var env = utils.findBootstrapEnvironment();
 			// if env didn't change don't destroy and recreate
@@ -56,7 +56,7 @@ $(document).ready(function () {
 					navbarEl.autoHidingNavbar('setDisableAutohide', false);
 				});
 
-			hooks.fire('filter:persona.configureNavbarHiding', {
+			hooks.fire('filter:lhvxon.configureNavbarHiding', {
 				resizeEnvs: preference,
 			}).then(({ resizeEnvs }) => {
 				if (resizeEnvs.includes(env)) {
@@ -111,7 +111,7 @@ $(document).ready(function () {
 	}
 
 	function setupTaskbar() {
-		require(['persona/taskbar'], function (taskbar) {
+		require(['lhvxon/taskbar'], function (taskbar) {
 			taskbar.init();
 		});
 	}
@@ -145,7 +145,7 @@ $(document).ready(function () {
 	}
 
 	function setupMobileMenu() {
-		require(['persona/mobile-menu'], function (mobileMenu) {
+		require(['lhvxon/mobile-menu'], function (mobileMenu) {
 			mobileMenu.init();
 		});
 	}
@@ -175,7 +175,7 @@ $(document).ready(function () {
 			}
 		}
 
-		$('.persona-usercard').remove();
+		$('.lhvxon-usercard').remove();
 
 		if (parseInt(data.uid, 10) === 0) {
 			return false;
@@ -217,7 +217,7 @@ $(document).ready(function () {
 
 	function setupCardRemoval(card) {
 		function removeCard(ev) {
-			if ($(ev.target).closest('.persona-usercard').length === 0) {
+			if ($(ev.target).closest('.lhvxon-usercard').length === 0) {
 				card.fadeOut(function () {
 					card.remove();
 				});

@@ -9,12 +9,12 @@
 	],
 	"scripts": [
 		"public/modules/autohidingnavbar.js",
-		"public/persona.js"
+		"public/lhvxon.js"
 	],
 	"modules": {
-		"../admin/plugins/persona.js": "public/admin.js",
-		"persona/taskbar.js": "public/modules/taskbar.js",
-		"persona/mobile-menu.js": "public/modules/mobile-menu.js",
+		"../admin/plugins/lhvxon.js": "public/admin.js",
+		"lhvxon/taskbar.js": "public/modules/taskbar.js",
+		"lhvxon/mobile-menu.js": "public/modules/mobile-menu.js",
 		"../client/account/theme.js": "public/settings.js"
 	},
 	"languages": "languages"
