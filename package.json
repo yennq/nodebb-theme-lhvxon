@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-lhvxon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "nbbpm": {
     "compatibility": "^3.7.0"
   },
@@ -22,24 +22,14 @@
   ],
   "contributors": [
     {
-      "name": "Andrew Rodrigues",
-      "email": "andrew@nodebb.org",
-      "url": "https://github.com/psychobunny"
-    },
-    {
-      "name": "Julian Lam",
-      "email": "julian@nodebb.org",
-      "url": "https://github.com/julianlam"
-    },
-    {
-      "name": "Barış Soner Uşaklı",
-      "email": "baris@nodebb.org",
-      "url": "https://github.com/barisusakli"
+      "name": "Yen Nguyen",
+      "email": "admin@typing.vn",
+      "url": "https://typing.vn"
     }
   ],
-  "license": "BSD-2-Clause",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-theme-lhvxon/issues"
+    "url": "https://github.com/yennq/nodebb-theme-lhvxon/issues"
   },
   "dependencies": {
     "pulling": "^2.0.0"
