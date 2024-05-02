@@ -10,7 +10,7 @@
 
 	<div class="row m-0">
 		<div id="spy-container" class="col-12 col-md-8 px-0 mb-4" tabindex="0">
-			<form role="form" class="persona-settings">
+			<form role="form" class="lhvxon-settings">
 				<div class="form-check">
 					<input class="form-check-input" type="checkbox" id="hideSubCategories" name="hideSubCategories">
 					<label class="form-check-label">Hide subcategories on categories view</label>
